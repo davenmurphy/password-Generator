@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #34495e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #3498db;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: black 30px;
+    border-bottom: solid 5px #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+.ammount {
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    width: 2rem;
+}
+
+.password-display {
+    background-color: #2980b9;
+    padding: 5px;
+    width: 22rem;
+    max-width: 22rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn {
+    grid-column: span 2;
+    background-color: #2980b9;
+    padding: 4px;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
